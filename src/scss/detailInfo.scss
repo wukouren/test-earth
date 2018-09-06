@@ -1,0 +1,48 @@
+@import "./Common/Variables.scss";
+
+.detail-info{
+   .expense{
+       position: absolute;
+       top:pxTorem(36);
+       left:pxTorem(20);
+       right:pxTorem(20);
+   }
+    .exp-cells{
+        padding:0px pxTorem(20);
+        color:red;
+        background: #fff;
+        box-shadow:0 0 pxTorem(10) 0 rgba(128,128,128,0.12);
+        border-radius:8px;
+        z-index:11;
+        .exp-detail-cell{
+            display: flex;
+            padding:pxTorem(10) 0px;
+            flex-direction: column;
+            letter-spacing:pxTorem(0.82);
+            &.bt-gray{
+                border-top:1px solid #e7e7e7;
+            }
+            .exp-detail-item{
+                // height: 20px;
+                line-height: pxTorem(20);
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                &.mt5{
+                    margin-top:pxTorem(5);
+                }
+                .exp-detail-left{
+                    color:#999999;
+                    width:30%;
+
+                }
+                .exp-detail-right{
+                    color:#494949;
+                    width:70%;
+                    text-align: right;
+                }
+            }
+            
+        }
+    }
+}

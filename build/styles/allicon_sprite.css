@@ -1,0 +1,325 @@
+.icon-District {
+  display: inline-block;
+  background-image: url(../images/allicon_sprite.png);
+  background-position: 0px -212.5px;
+  background-size: 414px;
+  width: 18.5px;
+  height: 26px;
+}
+
+.icon-Group {
+  display: inline-block;
+  background-image: url(../images/allicon_sprite.png);
+  background-position: 0px -540.5px;
+  background-size: 414px;
+  width: 52.5px;
+  height: 53px;
+}
+
+.icon-Region {
+  display: inline-block;
+  background-image: url(../images/allicon_sprite.png);
+  background-position: 0px -178.5px;
+  background-size: 414px;
+  width: 23.5px;
+  height: 25px;
+}
+
+.icon-Shape {
+  display: inline-block;
+  background-image: url(../images/allicon_sprite.png);
+  background-position: 0px -288.5px;
+  background-size: 414px;
+  width: 32.5px;
+  height: 34px;
+}
+
+.icon-arrow_right {
+  display: inline-block;
+  background-image: url(../images/allicon_sprite.png);
+  background-position: 0px -43.5px;
+  background-size: 414px;
+  width: 8.5px;
+  height: 14px;
+}
+
+.icon-bar {
+  display: inline-block;
+  background-image: url(../images/allicon_sprite.png);
+  background-position: 0px -149.5px;
+  background-size: 414px;
+  width: 18.5px;
+  height: 20px;
+}
+
+.icon-bj {
+  display: inline-block;
+  background-image: url(../images/allicon_sprite.png);
+  background-position: 0px -664.5px;
+  background-size: 414px;
+  width: 414.5px;
+  height: 127px;
+}
+
+.icon-checkmark {
+  display: inline-block;
+  background-image: url(../images/allicon_sprite.png);
+  background-position: 0px -66.5px;
+  background-size: 414px;
+  width: 21.5px;
+  height: 17px;
+}
+
+.icon-email {
+  display: inline-block;
+  background-image: url(../images/allicon_sprite.png);
+  background-position: 0px -92.5px;
+  background-size: 414px;
+  width: 18.5px;
+  height: 19px;
+}
+
+.icon-paiming {
+  display: inline-block;
+  background-image: url(../images/allicon_sprite.png);
+  background-position: 0px -478.5px;
+  background-size: 414px;
+  width: 52.5px;
+  height: 53px;
+}
+
+.icon-pm1 {
+  display: inline-block;
+  background-image: url(../images/allicon_sprite.png);
+  background-position: 0px -331.5px;
+  background-size: 414px;
+  width: 40.5px;
+  height: 40px;
+}
+
+.icon-pm2 {
+  display: inline-block;
+  background-image: url(../images/allicon_sprite.png);
+  background-position: 0px -380.5px;
+  background-size: 414px;
+  width: 40.5px;
+  height: 40px;
+}
+
+.icon-pm3 {
+  display: inline-block;
+  background-image: url(../images/allicon_sprite.png);
+  background-position: 0px -429.5px;
+  background-size: 414px;
+  width: 40.5px;
+  height: 40px;
+}
+
+.icon-pxj {
+  display: inline-block;
+  background-image: url(../images/allicon_sprite.png);
+  background-position: 0px -21.5px;
+  background-size: 414px;
+  width: 13.5px;
+  height: 13px;
+}
+
+.icon-pxs {
+  display: inline-block;
+  background-image: url(../images/allicon_sprite.png);
+  background-position: 0px 0.5px;
+  background-size: 414px;
+  width: 13.5px;
+  height: 13px;
+}
+
+.icon-success {
+  display: inline-block;
+  background-image: url(../images/allicon_sprite.png);
+  background-position: 0px -247.5px;
+  background-size: 414px;
+  width: 47.5px;
+  height: 32px;
+}
+
+.icon-tsr {
+  display: inline-block;
+  background-image: url(../images/allicon_sprite.png);
+  background-position: 0px -120.5px;
+  background-size: 414px;
+  width: 30.5px;
+  height: 20px;
+}
+
+.icon-zonglan {
+  display: inline-block;
+  background-image: url(../images/allicon_sprite.png);
+  background-position: 0px -602.5px;
+  background-size: 414px;
+  width: 52.5px;
+  height: 53px;
+}
+
+@media screen and (max-width: 449px) {
+  .icon-District {
+    display: inline-block;
+    background-image: url(../images/allicon_sprite.png);
+    background-position: 0rem -5.132850241545894rem;
+    background-size: 10rem;
+    width: 0.44685990338164255rem;
+    height: 0.6280193236714976rem;
+  }
+
+  .icon-Group {
+    display: inline-block;
+    background-image: url(../images/allicon_sprite.png);
+    background-position: 0rem -13.055555555555555rem;
+    background-size: 10rem;
+    width: 1.2681159420289856rem;
+    height: 1.280193236714976rem;
+  }
+
+  .icon-Region {
+    display: inline-block;
+    background-image: url(../images/allicon_sprite.png);
+    background-position: 0rem -4.311594202898551rem;
+    background-size: 10rem;
+    width: 0.5676328502415459rem;
+    height: 0.6038647342995169rem;
+  }
+
+  .icon-Shape {
+    display: inline-block;
+    background-image: url(../images/allicon_sprite.png);
+    background-position: 0rem -6.968599033816425rem;
+    background-size: 10rem;
+    width: 0.785024154589372rem;
+    height: 0.821256038647343rem;
+  }
+
+  .icon-arrow_right {
+    display: inline-block;
+    background-image: url(../images/allicon_sprite.png);
+    background-position: 0rem -1.0507246376811594rem;
+    background-size: 10rem;
+    width: 0.20531400966183574rem;
+    height: 0.33816425120772947rem;
+  }
+
+  .icon-bar {
+    display: inline-block;
+    background-image: url(../images/allicon_sprite.png);
+    background-position: 0rem -3.611111111111111rem;
+    background-size: 10rem;
+    width: 0.44685990338164255rem;
+    height: 0.48309178743961356rem;
+  }
+
+  .icon-bj {
+    display: inline-block;
+    background-image: url(../images/allicon_sprite.png);
+    background-position: 0rem -16.05072463768116rem;
+    background-size: 10rem;
+    width: 10.01207729468599rem;
+    height: 3.067632850241546rem;
+  }
+
+  .icon-checkmark {
+    display: inline-block;
+    background-image: url(../images/allicon_sprite.png);
+    background-position: 0rem -1.606280193236715rem;
+    background-size: 10rem;
+    width: 0.5193236714975845rem;
+    height: 0.4106280193236715rem;
+  }
+
+  .icon-email {
+    display: inline-block;
+    background-image: url(../images/allicon_sprite.png);
+    background-position: 0rem -2.2342995169082127rem;
+    background-size: 10rem;
+    width: 0.44685990338164255rem;
+    height: 0.4589371980676329rem;
+  }
+
+  .icon-paiming {
+    display: inline-block;
+    background-image: url(../images/allicon_sprite.png);
+    background-position: 0rem -11.557971014492754rem;
+    background-size: 10rem;
+    width: 1.2681159420289856rem;
+    height: 1.280193236714976rem;
+  }
+
+  .icon-pm1 {
+    display: inline-block;
+    background-image: url(../images/allicon_sprite.png);
+    background-position: 0rem -8.007246376811594rem;
+    background-size: 10rem;
+    width: 0.9782608695652174rem;
+    height: 0.9661835748792271rem;
+  }
+
+  .icon-pm2 {
+    display: inline-block;
+    background-image: url(../images/allicon_sprite.png);
+    background-position: 0rem -9.190821256038648rem;
+    background-size: 10rem;
+    width: 0.9782608695652174rem;
+    height: 0.9661835748792271rem;
+  }
+
+  .icon-pm3 {
+    display: inline-block;
+    background-image: url(../images/allicon_sprite.png);
+    background-position: 0rem -10.374396135265702rem;
+    background-size: 10rem;
+    width: 0.9782608695652174rem;
+    height: 0.9661835748792271rem;
+  }
+
+  .icon-pxj {
+    display: inline-block;
+    background-image: url(../images/allicon_sprite.png);
+    background-position: 0rem -0.5193236714975845rem;
+    background-size: 10rem;
+    width: 0.32608695652173914rem;
+    height: 0.3140096618357488rem;
+  }
+
+  .icon-pxs {
+    display: inline-block;
+    background-image: url(../images/allicon_sprite.png);
+    background-position: 0rem 0.012077294685990338rem;
+    background-size: 10rem;
+    width: 0.32608695652173914rem;
+    height: 0.3140096618357488rem;
+  }
+
+  .icon-success {
+    display: inline-block;
+    background-image: url(../images/allicon_sprite.png);
+    background-position: 0rem -5.978260869565218rem;
+    background-size: 10rem;
+    width: 1.1473429951690821rem;
+    height: 0.7729468599033816rem;
+  }
+
+  .icon-tsr {
+    display: inline-block;
+    background-image: url(../images/allicon_sprite.png);
+    background-position: 0rem -2.9106280193236715rem;
+    background-size: 10rem;
+    width: 0.7367149758454107rem;
+    height: 0.48309178743961356rem;
+  }
+
+  .icon-zonglan {
+    display: inline-block;
+    background-image: url(../images/allicon_sprite.png);
+    background-position: 0rem -14.553140096618359rem;
+    background-size: 10rem;
+    width: 1.2681159420289856rem;
+    height: 1.280193236714976rem;
+  }
+}

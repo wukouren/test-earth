@@ -1,0 +1,65 @@
+.attach-ment .attach-content {
+  position: absolute;
+  top: 0.8937198068rem;
+  left: 0.4830917874rem;
+  right: 0.4830917874rem;
+  bottom: 0.9661835749rem;
+}
+.attach-ment .attach-content .attach-cell {
+  background: #ffffff;
+  box-shadow: 0 0 0.2415458937rem 0 rgba(129, 129, 129, 0.3);
+  border-radius: 0.193236715rem;
+  height: 2.4154589372rem;
+  padding: 0.2415458937rem 0.4830917874rem;
+  display: flex;
+  flex-direction: row;
+}
+.attach-ment .attach-content .attach-cell .a-cell-img {
+  display: flex;
+  align-items: center;
+  width: 28%;
+}
+.attach-ment .attach-content .attach-cell .a-cell-img img {
+  margin-right: 0.3623188406rem;
+  display: inline-block;
+  max-height: 1.9323671498rem;
+}
+.attach-ment .attach-content .attach-cell .attach-info {
+  width: 72%;
+  padding-top: 0.193236715rem;
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 0;
+  color: #999;
+  letter-spacing: 0;
+}
+.attach-ment .attach-content .attach-cell .attach-info .attach-top {
+  font-size: 0.38647343rem;
+}
+.attach-ment .attach-content .attach-cell .attach-info .attach-top .name_title {
+  display: inline-block;
+  white-space: nowrap;
+  word-break: break-all;
+  overflow: hidden;
+}
+.attach-ment .attach-content .attach-cell .attach-info .attach-bottom {
+  font-size: 0.3381642512rem;
+  line-height: 0.4830917874rem;
+}
+.attach-ment .attach-content .attach-cell .attach-info .attach-bottom.mt10 {
+  margin-top: 0.2415458937rem;
+}
+.attach-ment .empty {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -10px;
+  margin-left: -150px;
+}
+.attach-ment .empty .empty-content {
+  width: 300px;
+  text-align: center;
+  height: 20px;
+  font-size: 15px;
+  color: #999;
+}

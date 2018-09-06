@@ -1,0 +1,37 @@
+.indexpage {
+  position: absolute;
+  top: 0.8937198068rem;
+  left: 0.4830917874rem;
+}
+.indexpage > div {
+  padding: 0.7004830918rem 0.6763285024rem;
+  margin-bottom: 0.4830917874rem;
+  background: #ffffff;
+  box-shadow: 0 0 0.2415458937rem 0 rgba(128, 128, 128, 0.12);
+  border-radius: 0.193236715rem;
+  width: 9.0338164251rem;
+  height: 2.6570048309rem;
+}
+.indexpage .item {
+  font-size: 0.4347826087rem;
+  color: #333333;
+  text-align: left;
+  margin-left: 0.3381642512rem;
+  margin-top: 0.1207729469rem;
+}
+.indexpage .item div:nth-child(1) {
+  height: 0.6038647343rem;
+  line-height: 0.6038647343rem;
+}
+.indexpage .item .min-text {
+  height: 0.6038647343rem;
+  font-size: 0.2898550725rem;
+  line-height: 0.38647343rem;
+  color: #999999;
+  letter-spacing: 0.7px;
+}
+.indexpage .row-r {
+  height: 1.2077294686rem;
+  line-height: 1.2077294686rem;
+  margin-right: 0.3381642512rem;
+}

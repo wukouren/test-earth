@@ -1,0 +1,155 @@
+.b{
+    border:1px solid red;
+}
+@import "./Common/Variables.scss";
+.error-msg{
+    display: flex;
+    justify-content: center;
+    margin-top:pxTorem(250);
+    color:#999;
+    font-size: pxTorem(16);
+}
+
+.person-info{
+    //  position: absolute;
+    //  top:0px;
+    .header-bg{
+        height:pxTorem(22);
+        background: #33a6e2;
+        width:100%;
+        // position: fixed;
+        // top:0px;
+
+    }
+    .img{
+        position:fixed;
+        top:0px;left:0px;right:0;
+        z-index:-21;
+    }
+     .person-content{
+         position: absolute;
+         top:0px;
+         left:0;
+         right:0;
+         z-index:22;
+         padding:0px pxTorem(30) 0px pxTorem(20);
+         display: flex;
+         flex-direction: row;
+         .fix-content{
+             position: fixed;
+             top:pxTorem(0);
+             left: pxTorem(20);
+             right: pxTorem(20);
+            //  height:68px;
+             height:pxTorem(67);
+            //  width:100%;
+             background: #33a6e2;
+             display: flex;
+             flex-direction: row;
+             .fix-c-img{
+                 margin-top: pxTorem(0);
+                 margin-right:pxTorem(10);
+             }
+             .fix-c-info{
+               padding-top:pxTorem(14);
+            //    padding-top:15px;
+               display: flex;
+               flex-direction: row;
+               width:100%;
+               .mt5{
+                   margin-top: pxTorem(5);
+               }
+               .fix-c-left{
+                    width:65%;
+                    // border:1px solid blue;
+                    .fix-left{
+                        height:20px;
+                        width:pxTorem(150);
+                        // border:1px solid blue;
+                        overflow: hidden;
+                        display: block;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                    }
+                    // width:56%;
+                    .fix-c-name{
+                        font-size:pxTorem(16);
+                        color:#ffffff;
+                        letter-spacing:pxTorem(-0.6);
+                        margin-right:3px;
+                    }
+                    .fix-c-dept{
+                        &.w70{width:pxTorem(120);display: inline-block;}
+                        font-size:pxTorem(12);
+                        // font-size:14px;
+                        color:#ffffff;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                    }
+                }
+               .fix-c-right{
+                   width:35%;
+                   text-align: center;
+                   .fix-c-right-name{
+                        font-size:pxTorem(13);
+                        color:#ffffff;
+                        &.mt10{margin-top:pxTorem(10);}
+                   }
+            //        .fix-c-right-num{
+            //         font-size:pxTorem(10);
+            //         color:#ffffff;
+            //    }
+               }
+             }
+            //  margin-left:65px;
+         }
+         .p-content-left{
+            position:fixed;
+            top:pxTorem(18);
+            left:pxTorem(20);
+            //  width:21%;
+            //  position: absolute;
+            //  top:10px;
+             &.fix-img{
+                top:pxTorem(5);
+             }
+            //  width:70px;
+         }
+         .p-content-right{
+             width:79%;
+             margin-left:pxTorem(70);
+             margin-top:pxTorem(18);
+             display: flex;
+             flex-direction: column;
+             &.fixed{
+                 position: absolute;
+                 top:pxTorem(100);
+             }
+             .p-right-cell{
+                 height:pxTorem(22);
+                 line-height: pxTorem(22);
+                 display: flex;
+                 flex-direction: row;
+                //  font-family:PingFangSC-Regular;
+                 font-size:pxTorem(14);
+                 color:#ffffff;
+                 letter-spacing:pxTorem(-0.53);
+                 .p-cell-left{
+                     width:40%;
+                 }
+                 .p-cell-right{
+                    width:60%;
+                    &.font-12{
+                        font-size: pxTorem(12);
+                    }
+                    &.text-hidden{
+                        overflow: hidden;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                    }
+                }
+             }
+         }
+     }
+}

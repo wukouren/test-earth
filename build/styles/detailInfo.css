@@ -1,0 +1,41 @@
+.detail-info .expense {
+  position: absolute;
+  top: 0.8695652174rem;
+  left: 0.4830917874rem;
+  right: 0.4830917874rem;
+}
+.detail-info .exp-cells {
+  padding: 0px 0.4830917874rem;
+  color: red;
+  background: #fff;
+  box-shadow: 0 0 0.2415458937rem 0 rgba(128, 128, 128, 0.12);
+  border-radius: 8px;
+  z-index: 11;
+}
+.detail-info .exp-cells .exp-detail-cell {
+  display: flex;
+  padding: 0.2415458937rem 0px;
+  flex-direction: column;
+  letter-spacing: 0.0198067633rem;
+}
+.detail-info .exp-cells .exp-detail-cell.bt-gray {
+  border-top: 1px solid #e7e7e7;
+}
+.detail-info .exp-cells .exp-detail-cell .exp-detail-item {
+  line-height: 0.4830917874rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.detail-info .exp-cells .exp-detail-cell .exp-detail-item.mt5 {
+  margin-top: 0.1207729469rem;
+}
+.detail-info .exp-cells .exp-detail-cell .exp-detail-item .exp-detail-left {
+  color: #999999;
+  width: 30%;
+}
+.detail-info .exp-cells .exp-detail-cell .exp-detail-item .exp-detail-right {
+  color: #494949;
+  width: 70%;
+  text-align: right;
+}

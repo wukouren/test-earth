@@ -1,0 +1,161 @@
+.Ranking .select_team {
+  margin-bottom: 0;
+}
+
+.Select_Region {
+  height: 2.1739130435rem;
+  background-color: #ffffff;
+}
+.Select_Region ul {
+  display: flex;
+}
+.Select_Region ul li {
+  flex: 1;
+  text-align: center;
+  font-size: 0.3381642512rem;
+  color: #00a8e2;
+  width: 33.3%;
+  height: 2.1739130435rem;
+  vertical-align: top;
+}
+.Select_Region ul li > div {
+  padding-top: 0.4830917874rem;
+}
+.Select_Region ul li .TSR {
+  padding-top: 0.5797101449rem;
+}
+.Select_Region ul .txt {
+  margin-top: 0.1207729469rem;
+}
+.Select_Region .border-line-v.before:before {
+  height: 1.9323671498rem !important;
+  top: 0.6038647343rem !important;
+}
+.Select_Region .border-line-v.after:after {
+  height: 1.9323671498rem !important;
+  top: 0.6038647343rem !important;
+}
+.Select_Region .active {
+  background: #E4F6FC;
+}
+
+.Sort {
+  height: 1.2077294686rem;
+  line-height: 1.2077294686rem;
+  padding-left: 0.4830917874rem;
+  padding-right: 0.6038647343rem;
+  color: #999999;
+  background-color: #f7f7f7;
+}
+.Sort div {
+  display: inline-block;
+}
+.Sort div:nth-child(1) {
+  width: 60%;
+}
+.Sort div:nth-child(1) span:nth-child(2) {
+  margin-left: 0.1207729469rem;
+  vertical-align: middle;
+}
+.Sort div:nth-child(2) {
+  width: 40%;
+  text-align: right;
+}
+.Sort div:nth-child(2) span {
+  display: inline-block;
+  width: 50%;
+}
+
+.Rank-items {
+  background-color: #ffffff;
+}
+.Rank-items ul > li {
+  width: 100%;
+  display: inline-block;
+  height: 1.690821256rem;
+  overflow: hidden;
+  text-align: center;
+  line-height: 1.690821256rem;
+  padding-left: 0.6038647343rem;
+}
+.Rank-items ul > li > div {
+  display: inline-block;
+  text-align: left;
+}
+.Rank-items ul > li span {
+  font-size: 0.38647343rem;
+  color: #333333;
+}
+.Rank-items ul > li div:nth-child(1) {
+  width: 60%;
+}
+.Rank-items ul > li div:nth-child(1) span:nth-child(1) {
+  text-align: center;
+  display: inline-block;
+  width: 0.9661835749rem;
+  height: 0.9661835749rem;
+  font-size: 0.5314009662rem;
+  color: #00a8e2;
+  margin-right: 0.3381642512rem;
+}
+.Rank-items ul > li div:nth-child(1) .pm-item {
+  vertical-align: middle;
+}
+.Rank-items ul > li div:nth-child(2) {
+  width: 40%;
+  text-align: center;
+}
+.Rank-items ul > li div:nth-child(2) span {
+  display: inline-block;
+  width: 50%;
+}
+
+.Rank-implantabel {
+  background-color: #f7f7f7;
+}
+.Rank-implantabel ul > li {
+  width: 100%;
+  display: inline-block;
+  overflow: hidden;
+  text-align: center;
+  line-height: 1.690821256rem;
+  margin-bottom: 0.38647343rem;
+}
+.Rank-implantabel ul > li > div {
+  text-align: left;
+}
+.Rank-implantabel ul > li span {
+  font-size: 0.38647343rem;
+  color: #333333;
+}
+.Rank-implantabel ul > li .Rank-implantabel-1 {
+  padding-left: 0.6038647343rem;
+  height: 1.4492753623rem;
+  background-color: #ffffff;
+}
+.Rank-implantabel ul > li .Rank-implantabel-1 span:nth-child(1) {
+  text-align: center;
+  width: 0.9661835749rem;
+  height: 0.9661835749rem;
+  font-size: 0.5314009662rem;
+  color: #00a8e2;
+  margin-right: 0.3381642512rem;
+}
+.Rank-implantabel ul > li .Rank-implantabel-1 .pm-item {
+  vertical-align: middle;
+}
+.Rank-implantabel ul > li .Rank-implantabel-2 {
+  height: 1.4492753623rem;
+  background-color: #fcfcfc;
+}
+.Rank-implantabel ul > li .Rank-implantabel-2 .item {
+  display: inline-block;
+  width: 20%;
+}
+.Rank-implantabel ul > li .Rank-implantabel-2 .item P {
+  text-align: center;
+  line-height: initial;
+}
+.Rank-implantabel ul > li .Rank-implantabel-2 .item p.item-w {
+  font-size: 0.2657004831rem;
+}

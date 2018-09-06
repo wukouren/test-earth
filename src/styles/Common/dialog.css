@@ -1,0 +1,176 @@
+.custom-alert {
+  z-index: 333333;
+}
+
+.custom-alert .custom-alert-w {
+  animation-duration: 0.8s;
+  animation-iteration-count: 1;
+}
+
+.custom-alert .custom-alert-w .custom-alert-close .custom-alert-close-i {
+  width: 1.0144927536rem;
+  height: 1.0144927536rem;
+  background: url(../../images/close.png) no-repeat;
+  background-size: cover;
+}
+
+.custom-alert .custom-alert-w .custom-alert-c {
+  background: #fff;
+  padding: 2.1497584541rem 0 3.309178744rem;
+}
+
+.custom-alert .custom-alert-w {
+  width: 20.2898550725rem;
+  margin: -11.1594202899rem 0 0 -10.1449275362rem;
+}
+
+.custom-alert .custom-alert-w .custom-alert-btn {
+  border: none;
+  height: 4.2512077295rem;
+}
+
+.custom-alert .custom-alert-w .custom-alert-btn button {
+  background: #f9f9f9;
+  border: none;
+  color: #666666;
+  font-size: 1.1594202899rem;
+  height: 4.2512077295rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.custom-alert .custom-alert-w .custom-alert-btn button[disabled] {
+  background: #f9f9f9;
+  cursor: default;
+}
+
+.custom-alert.custom-confirm .custom-alert-btn.alert-btns-has-1 button {
+  width: 100% !important;
+}
+
+.custom-alert.custom-confirm .custom-alert-btn.alert-btns-has-2 button {
+  width: 50% !important;
+}
+
+.custom-alert .custom-alert-w .custom-alert-btn {
+  position: relative;
+}
+
+.custom-alert .custom-alert-w .custom-alert-btn .custom-alert-btn-sep {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: 1px;
+  top: 50%;
+  margin-top: -1.231884058rem;
+  width: 1px;
+  height: 2.4637681159rem;
+  background: #fff;
+  z-index: 22333;
+}
+
+.custom-confirm-c .custom-confirm-icon {
+  margin: 0 auto;
+  width: 9.1787439614rem;
+  height: 9.1787439614rem;
+  border-radius: 9.1787439614rem;
+  position: relative;
+}
+.custom-confirm-c .custom-confirm-icon .rejectIcon {
+  position: absolute;
+  background: url(../../images/chailv/reject.png) no-repeat;
+  width: 9.1787439614rem;
+  height: 9.1787439614rem;
+  background-size: cover;
+  left: 0;
+  top: 1.0869565217rem;
+}
+.custom-confirm-c .custom-confirm-icon .cancelIcon {
+  position: absolute;
+  background: url(../../images/chailv/cancel.png) no-repeat;
+  width: 9.1787439614rem;
+  height: 9.1787439614rem;
+  background-size: cover;
+  left: 0;
+  top: 1.0869565217rem;
+}
+.custom-confirm-c .custom-confirm-icon .submitSuccessIcon {
+  position: absolute;
+  background: url(../../images/chailv/submit-success.png) no-repeat;
+  width: 9.1787439614rem;
+  height: 9.1787439614rem;
+  background-size: cover;
+  left: 0;
+  top: 0;
+}
+
+.custom-confirm-icon .loading-progress-bar {
+  margin: 0;
+}
+
+.custom-confirm-icon .html-loading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.html-loading .html-loading-bg {
+  border-radius: 120px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  background: #000;
+  opacity: 0.5;
+}
+
+.html-loading .loading-progress-bar {
+  position: absolute;
+  top: 50%;
+  margin-top: -0.3140096618rem;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.loading-progress-bar .loading-bar .load .dot:nth-child(1) {
+  -webkit-animation-delay: .20s;
+}
+
+.loading-progress-bar .loading-bar .load .dot:nth-child(2) {
+  -webkit-animation-delay: .40s;
+}
+
+.loading-progress-bar .loading-bar .load .dot:nth-child(3) {
+  -webkit-animation-delay: .60s;
+}
+
+.loading-progress-bar .loading-bar .load .dot {
+  margin-left: 1.3526570048rem;
+  background: #fff;
+  width: 0.6280193237rem;
+  height: 0.6280193237rem;
+}
+
+.loading-progress-bar .loading-bar .load .dot:first-child {
+  margin-left: 0;
+}
+
+.custom-confirm-c img {
+  width: 100%;
+  height: 100%;
+}
+
+.custom-confirm-c p {
+  margin: 2.4637681159rem 1.2077294686rem 0;
+  line-height: 1.4492753623rem;
+  font-size: 1.1594202899rem;
+  color: #333;
+}
+.custom-confirm-c p.font-w600 {
+  font-weight: 600;
+}

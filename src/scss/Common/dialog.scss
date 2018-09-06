@@ -1,0 +1,141 @@
+$fz :41.4;
+
+.custom-alert{
+	z-index: 333333;
+}
+.custom-alert .custom-alert-w{
+	animation-duration: 0.8s;
+  animation-iteration-count: 	1;
+}
+.custom-alert .custom-alert-w .custom-alert-close .custom-alert-close-i{
+	width: (42/$fz)+rem;
+	height: (42/$fz)+rem;
+	background: url(../../images/close.png) no-repeat;
+	background-size: cover;
+}
+.custom-alert .custom-alert-w .custom-alert-c{
+	background:#fff;
+	padding:(89/$fz)+rem 0 (137/$fz)+rem;
+}
+.custom-alert .custom-alert-w{
+	width: (840/$fz)+rem;
+	margin:(-(924/2/$fz)+rem) 0 0 (-(840/2/$fz)+rem);
+}
+.custom-alert .custom-alert-w .custom-alert-btn{
+	border:none;
+	height: (176/$fz)+rem;
+}
+.custom-alert .custom-alert-w .custom-alert-btn button{
+	background: #f9f9f9;
+	border:none;
+	color: #666666;
+	font-size: (48/$fz)+rem;
+	height: (176/$fz)+rem;
+	line-height:1;
+	cursor: pointer;
+}
+.custom-alert .custom-alert-w .custom-alert-btn button[disabled]{
+	background: #f9f9f9;
+	cursor: default;
+}
+.custom-alert.custom-confirm .custom-alert-btn.alert-btns-has-1 button{
+	width: 100%!important;
+}
+.custom-alert.custom-confirm .custom-alert-btn.alert-btns-has-2 button{
+	width: 50%!important;
+}
+.custom-alert .custom-alert-w .custom-alert-btn{
+	position: relative;
+}
+.custom-alert .custom-alert-w .custom-alert-btn .custom-alert-btn-sep{
+	position: absolute;top:0;left: 50%;margin-left: 1px;
+	top:50%;
+	margin-top: (-(102/2/$fz)+rem);
+	width: 1px;height: (102/$fz)+rem;
+	background:#fff;
+	z-index: 22333;
+}
+.custom-confirm-c{}
+.custom-confirm-c .custom-confirm-icon{
+	margin:0 auto;
+	width: (380/$fz)+rem;
+	height: (380/$fz)+rem;
+	border-radius: (380/$fz)+rem;
+	position: relative;
+	.rejectIcon{
+	           position:absolute;
+					background: url(../../images/chailv/reject.png) no-repeat;
+					width: (380/$fz)+rem;
+	                height: (380/$fz)+rem;
+					background-size: cover;
+					// top:0;left:0;
+					left:0;	
+					top:(15*3/$fz)+rem;	
+	}
+	.cancelIcon{
+		position:absolute;
+			 background: url(../../images/chailv/cancel.png) no-repeat;
+			 width: (380/$fz)+rem;
+			 height: (380/$fz)+rem;
+			 background-size: cover;
+			 // top:0;left:0;
+			 left:0;	
+			 top:(15*3/$fz)+rem;	
+	}
+	.submitSuccessIcon{
+		position:absolute;
+			 background: url(../../images/chailv/submit-success.png) no-repeat;
+			 width: (380/$fz)+rem;
+			 height: (380/$fz)+rem;
+			 background-size: cover;
+			 // top:0;left:0;
+			 left:0;	
+			//  top:(15*3/$fz)+rem;	
+			top:0;
+    }
+}
+.custom-confirm-icon .loading-progress-bar{
+	margin:0;
+}
+.custom-confirm-icon .html-loading{
+	position: absolute;top:0;left: 0;bottom: 0;right: 0;
+}
+.html-loading .html-loading-bg{
+	border-radius: 120px;
+	position: absolute;top:0;right: 0;bottom: 0;left: 0;z-index: 1;background: #000;opacity: 0.5;
+}
+.html-loading .loading-progress-bar{
+	position: absolute;top:50%;margin-top: (-(26/2/$fz)+rem);
+	left: 0;right: 0;
+	z-index: 2
+}
+.loading-progress-bar .loading-bar .load .dot:nth-child(1){
+	-webkit-animation-delay: .20s;
+}
+.loading-progress-bar .loading-bar .load .dot:nth-child(2){
+	-webkit-animation-delay: .40s;
+}
+.loading-progress-bar .loading-bar .load .dot:nth-child(3){
+	-webkit-animation-delay: .60s;
+}
+
+.loading-progress-bar .loading-bar .load .dot{
+	margin-left: (56/$fz)+rem;
+	background: #fff;
+	width: (26/$fz)+rem;height:(26/$fz)+rem;
+}
+.loading-progress-bar .loading-bar .load .dot:first-child{
+	margin-left:0;
+}
+.custom-confirm-c img{
+	width: 100%;height: 100%;
+}
+.custom-confirm-c p{
+	margin:(102/$fz)+rem (50/$fz)+rem 0;
+	line-height: (60/$fz)+rem;
+	font-size: (48/$fz)+rem;
+	color: #333;
+	&.font-w600{
+		font-weight: 600;
+	}
+}

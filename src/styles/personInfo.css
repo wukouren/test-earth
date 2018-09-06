@@ -1,0 +1,138 @@
+.b {
+  border: 1px solid red;
+}
+
+.error-msg {
+  display: flex;
+  justify-content: center;
+  margin-top: 6.038647343rem;
+  color: #999;
+  font-size: 0.38647343rem;
+}
+
+.person-info .header-bg {
+  height: 0.5314009662rem;
+  background: #33a6e2;
+  width: 100%;
+}
+.person-info .img {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0;
+  z-index: -21;
+}
+.person-info .person-content {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  right: 0;
+  z-index: 22;
+  padding: 0px 0.7246376812rem 0px 0.4830917874rem;
+  display: flex;
+  flex-direction: row;
+}
+.person-info .person-content .fix-content {
+  position: fixed;
+  top: 0rem;
+  left: 0.4830917874rem;
+  right: 0.4830917874rem;
+  height: 1.6183574879rem;
+  background: #33a6e2;
+  display: flex;
+  flex-direction: row;
+}
+.person-info .person-content .fix-content .fix-c-img {
+  margin-top: 0rem;
+  margin-right: 0.2415458937rem;
+}
+.person-info .person-content .fix-content .fix-c-info {
+  padding-top: 0.3381642512rem;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.person-info .person-content .fix-content .fix-c-info .mt5 {
+  margin-top: 0.1207729469rem;
+}
+.person-info .person-content .fix-content .fix-c-info .fix-c-left {
+  width: 65%;
+}
+.person-info .person-content .fix-content .fix-c-info .fix-c-left .fix-left {
+  height: 20px;
+  width: 3.6231884058rem;
+  overflow: hidden;
+  display: block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.person-info .person-content .fix-content .fix-c-info .fix-c-left .fix-c-name {
+  font-size: 0.38647343rem;
+  color: #ffffff;
+  letter-spacing: -0.0144927536rem;
+  margin-right: 3px;
+}
+.person-info .person-content .fix-content .fix-c-info .fix-c-left .fix-c-dept {
+  font-size: 0.2898550725rem;
+  color: #ffffff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.person-info .person-content .fix-content .fix-c-info .fix-c-left .fix-c-dept.w70 {
+  width: 2.8985507246rem;
+  display: inline-block;
+}
+.person-info .person-content .fix-content .fix-c-info .fix-c-right {
+  width: 35%;
+  text-align: center;
+}
+.person-info .person-content .fix-content .fix-c-info .fix-c-right .fix-c-right-name {
+  font-size: 0.3140096618rem;
+  color: #ffffff;
+}
+.person-info .person-content .fix-content .fix-c-info .fix-c-right .fix-c-right-name.mt10 {
+  margin-top: 0.2415458937rem;
+}
+.person-info .person-content .p-content-left {
+  position: fixed;
+  top: 0.4347826087rem;
+  left: 0.4830917874rem;
+}
+.person-info .person-content .p-content-left.fix-img {
+  top: 0.1207729469rem;
+}
+.person-info .person-content .p-content-right {
+  width: 79%;
+  margin-left: 1.690821256rem;
+  margin-top: 0.4347826087rem;
+  display: flex;
+  flex-direction: column;
+}
+.person-info .person-content .p-content-right.fixed {
+  position: absolute;
+  top: 2.4154589372rem;
+}
+.person-info .person-content .p-content-right .p-right-cell {
+  height: 0.5314009662rem;
+  line-height: 0.5314009662rem;
+  display: flex;
+  flex-direction: row;
+  font-size: 0.3381642512rem;
+  color: #ffffff;
+  letter-spacing: -0.0128019324rem;
+}
+.person-info .person-content .p-content-right .p-right-cell .p-cell-left {
+  width: 40%;
+}
+.person-info .person-content .p-content-right .p-right-cell .p-cell-right {
+  width: 60%;
+}
+.person-info .person-content .p-content-right .p-right-cell .p-cell-right.font-12 {
+  font-size: 0.2898550725rem;
+}
+.person-info .person-content .p-content-right .p-right-cell .p-cell-right.text-hidden {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

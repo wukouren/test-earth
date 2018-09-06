@@ -1,0 +1,42 @@
+@charset "UTF-8";
+@import "./Common/Variables.scss";
+.indexpage{
+    position: absolute;
+    top:(37/$fz)+rem;
+    left:(20/$fz)+rem;
+    >div {
+        padding: (29/$fz)+rem (28/$fz)+rem;
+        margin-bottom: (20/$fz)+rem;
+        background:$button-txt-color;
+        box-shadow:0 0 (10/$fz)+rem 0 rgba(128,128,128,0.12);
+        border-radius:(8/$fz)+rem;
+        width:(374/$fz)+rem;
+        height:(110/$fz)+rem;
+    }
+    .item{
+        font-size:$font-size-large;
+        color:$gray-dark;
+        text-align:left;
+        margin-left: (14/$fz)+rem;
+        margin-top: (5/$fz)+rem;
+        div:nth-child(1){
+            height: (25/$fz)+rem;
+            line-height: (25/$fz)+rem;
+        }
+        .min-text{
+            height: (25/$fz)+rem;
+            font-size:(12/$fz)+rem;
+            line-height:(16/$fz)+rem;
+            color:$gray-light;
+            letter-spacing:0.7px;
+        }
+    }
+    .row-r{
+        height: (50/$fz)+rem;
+        line-height: (50/$fz)+rem;
+        margin-right: (14/$fz)+rem
+    }
+
+
+}
+
